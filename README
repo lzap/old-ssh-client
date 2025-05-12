@@ -1,0 +1,13 @@
+old-ssh-client container
+========================
+
+Debian-based oldstable container with OpenSSH client installed.
+
+For connecting to ancient UNIX/Linux systems with very old and insecure OpenSSH daemons:
+
+podman run -it --rm ghcr.io/lzap/old-ssh-client:latest ssh root@192.168.122.2
+
+LICENSE
+=======
+
+PUBLIC DOMAIN
